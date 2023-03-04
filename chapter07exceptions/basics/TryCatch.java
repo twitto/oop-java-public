@@ -1,4 +1,4 @@
-package chapter07exceptions;
+package chapter07exceptions.basics;
 class TryCatch {
 public static void main(String[] args) {
     try {

@@ -1,4 +1,4 @@
-package chapter07exceptions;
+package chapter07exceptions.basics;
 
 class TryCatchFinally {
 public static void main(String[] args) {

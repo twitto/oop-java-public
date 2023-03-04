@@ -1,4 +1,4 @@
-package chapter07exceptions;
+package chapter07exceptions.basics;
 import java.io.*;
 class ThrowsExample {
     public static void findFile() throws IOException {
