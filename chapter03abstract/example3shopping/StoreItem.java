@@ -9,7 +9,7 @@ public abstract class StoreItem {
         this.price = price;
     }
 
-    public abstract double getTotalPrice();
+    //public abstract double getTotalPrice();
 
     public abstract String getDescription();
 }

@@ -10,7 +10,7 @@ public abstract class CartItem extends StoreItem {
 
     public abstract double getTotalCost();
 
-    @Override
+
     public double getTotalPrice() {
         return price * quantity;
     }
