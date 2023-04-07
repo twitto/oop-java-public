@@ -4,24 +4,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example02PathOperationsDemo {
-    public static void main(String[] args) {
-        Path path = Paths.get("/home/user/Documents");
+public class Example02PathOperationsDemo
+{
+    public static void main(String[] args)
+    {
+        Path path = Paths.get("chapter08files/io");
 
-        Path subPath = path.resolve("subdir");
+        System.out.println("path: " + path);
+        System.out.println("Exists: " + Files.exists(path));
+        System.out.println("Is directory: " + Files.isDirectory(path));
+
+        Path subPath = path.resolve("SubDirectory1");
+        System.out.println("path: " + path);
         System.out.println("Sub-path: " + subPath);
 
-        boolean exists = Files.exists(path);
-        boolean isDir = Files.isDirectory(path);
-        System.out.println("Exists: " + exists);
-        System.out.println("Is directory: " + isDir);
-
-        Path newPath = path.resolve("file.txt");
+        Path newPath = subPath.resolve("Sub1File1.txt");
         System.out.println("New path: " + newPath);
-
-        exists = Files.exists(newPath);
-        boolean isFile = Files.isRegularFile(newPath);
-        System.out.println("Exists: " + exists);
-        System.out.println("Is file: " + isFile);
+        System.out.println("Exists: " + Files.exists(newPath));
+        System.out.println("Is file: " + Files.isRegularFile(newPath));
     }
 }

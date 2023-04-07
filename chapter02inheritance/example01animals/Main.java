@@ -1,7 +1,9 @@
 package chapter02inheritance.example01animals;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         Dog dog = new Dog("Rufus", 7, "Labrador");
         Cat cat = new Cat("Fluffy", 3, "gray");
 

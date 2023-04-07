@@ -1,7 +1,9 @@
 package chapter03abstractness.example3shopping;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         // create some store items
         StoreItem laptop = new Electronic("Laptop", 999.99, 1, "Apple", "MacBook Pro", 12);
         StoreItem book = new Book("Java Programming", 39.99, 2, "123 Main St", "John Smith");

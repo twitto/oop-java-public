@@ -6,13 +6,16 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example13TraverseDirectoryRecursively {
-    public static void main(String[] args) throws Exception {
+public class Example13TraverseDirectoryRecursively
+{
+    public static void main(String[] args) throws Exception
+    {
         Path path = Paths.get("path/to/directory");
         traverseDirectoryRecursively(path);
     }
 
-    private static void traverseDirectoryRecursively(Path directory) throws IOException {
+    private static void traverseDirectoryRecursively(Path directory) throws IOException
+    {
         if (Files.isDirectory(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
             for (Path file : stream) {

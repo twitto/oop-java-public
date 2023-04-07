@@ -1,8 +1,10 @@
 package chapter02inheritance.example03polymorphism;
 
-class Dog extends Animal {
+class Dog extends Animal
+{
     @Override
-    void makeSound() {
+    void makeSound()
+    {
         System.out.println("The dog barks");
     }
 }

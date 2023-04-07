@@ -1,7 +1,9 @@
 package chapter02inheritance.example02vehicles;
 
-public class Main2 {
-    public static void main(String[] args) {
+public class Main2
+{
+    public static void main(String[] args)
+    {
         Vehicle[] myVehicles = new Vehicle[5];
         myVehicles[0] = new Car("Ford Focus", 1500, 200, 4, true);
         myVehicles[1] = new Ship("Queen Mary 2", 90000, 30, 12, true);

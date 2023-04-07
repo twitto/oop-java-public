@@ -3,19 +3,28 @@ package chapter07exceptions.examples.example2bank;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bank {
+public class Bank
+{
     private List<Account> accounts;
-    public Bank() {
+
+    public Bank()
+    {
         this.accounts = new ArrayList<Account>();
     }
-    public void addAccount(Account account) {
+
+    public void addAccount(Account account)
+    {
         this.accounts.add(account);
     }
-    public void transferMoney(Account from, Account to, double amount) throws Exception {
+
+    public void transferMoney(Account from, Account to, double amount) throws Exception
+    {
         from.withdraw(amount);
         to.deposit(amount);
     }
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
         Bank bank = new Bank();
         Account acc1 = new Account(1001, 5000);
         Account acc2 = new Account(1002, 10000);
