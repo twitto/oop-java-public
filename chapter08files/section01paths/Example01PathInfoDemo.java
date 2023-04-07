@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 
 public class Example01PathInfoDemo {
     public static void main(String[] args) {
-        Path path = Paths.get("/home/user/Documents");
+        Path path = Paths.get("./chapter08files/io");
 
         System.out.println("Path: " + path.toString());
         System.out.println("Root: " + path.getRoot());
