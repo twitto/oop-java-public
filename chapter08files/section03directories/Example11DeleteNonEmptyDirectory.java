@@ -1,4 +1,4 @@
-package chapter08files;
+package chapter08files.section03directories;
 
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;

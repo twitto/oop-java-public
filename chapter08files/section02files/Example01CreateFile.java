@@ -1,13 +1,13 @@
-package chapter08files;
+package chapter08files.section02files;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example02DeleteFile {
+public class Example01CreateFile {
     public static void main(String[] args) throws Exception {
         Path filePath = Paths.get("example.txt");
-        Files.delete(filePath);
-        System.out.println("File deleted successfully.");
+        Files.createFile(filePath);
+        System.out.println("File created successfully.");
     }
 }

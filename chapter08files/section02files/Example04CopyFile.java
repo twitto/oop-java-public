@@ -1,4 +1,4 @@
-package chapter08files;
+package chapter08files.section02files;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
