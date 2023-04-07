@@ -1,4 +1,4 @@
-package chapter03abstract.example1shapes;
+package chapter03abstractness.example1shapes;
 
 public abstract class Shape {
     protected int base;

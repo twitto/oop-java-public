@@ -1,4 +1,4 @@
-package chapter03abstract.example2multilevels;
+package chapter03abstractness.example2multilevels;
 
 public abstract class Quadrilateral extends Shape {
     protected double side1, side2, side3, side4;

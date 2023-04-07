@@ -1,4 +1,4 @@
-package chapter03abstract.example3shopping;
+package chapter03abstractness.example3shopping;
 
 public class Electronic extends CartItem {
     protected String brand;

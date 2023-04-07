@@ -1,4 +1,4 @@
-package chapter03abstract.example2multilevels;
+package chapter03abstractness.example2multilevels;
 
 public class Circle extends Shape {
     private final double radius;

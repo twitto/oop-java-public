@@ -1,4 +1,4 @@
-package chapter03abstract.example3shopping;
+package chapter03abstractness.example3shopping;
 
 class Book extends ShippableItem {
     protected String author;

@@ -1,4 +1,4 @@
-package chapter03abstract.example3shopping;
+package chapter03abstractness.example3shopping;
 
 public abstract class ShippableItem extends CartItem {
     protected String shippingAddress;

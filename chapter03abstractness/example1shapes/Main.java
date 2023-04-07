@@ -1,4 +1,4 @@
-package chapter03abstract.example1shapes;
+package chapter03abstractness.example1shapes;
 
 public class Main {
     public static void main(String[] args) {
