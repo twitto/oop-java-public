@@ -6,8 +6,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
-public class Example05WriteFile {
-    public static void main(String[] args) throws IOException {
+public class Example05WriteFile
+{
+    public static void main(String[] args) throws IOException
+    {
         // Define a string to write to file using a text block
         String text = """
                 This is an example

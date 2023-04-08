@@ -2,8 +2,10 @@ package chapter07exceptions.examples.example3calculator;
 
 import java.util.Scanner;
 
-public class CalculatorApp {
-    public static void main(String[] args) {
+public class CalculatorApp
+{
+    public static void main(String[] args)
+    {
         System.out.println("Welcome to the calculator program!");
         Scanner scanner = new Scanner(System.in);
         while (true) {

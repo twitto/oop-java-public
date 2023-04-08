@@ -4,8 +4,10 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Example02LinkedList {
-    public static void main(String[] args) {
+public class Example02LinkedList
+{
+    public static void main(String[] args)
+    {
         // Create a new LinkedList
         List<String> fruits = new LinkedList<>(); // []
 

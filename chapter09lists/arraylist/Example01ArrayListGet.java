@@ -3,8 +3,10 @@ package chapter09lists.arraylist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Example01ArrayListGet {
-    public static void main(String[] args) {
+public class Example01ArrayListGet
+{
+    public static void main(String[] args)
+    {
         // Create an ArrayList of strings
         List<String> fruits = new ArrayList<String>();
         // Add elements to the ArrayList

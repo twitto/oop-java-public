@@ -6,13 +6,16 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example04TraverseDirectoryShallowly {
-    public static void main(String[] args) throws Exception {
+public class Example04TraverseDirectoryShallowly
+{
+    public static void main(String[] args) throws Exception
+    {
         Path path = Paths.get("chapter08files/io");
         traverseDirectory(path);
     }
 
-    private static void traverseDirectory(Path directory) throws IOException {
+    private static void traverseDirectory(Path directory) throws IOException
+    {
         if (Files.exists(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
             for (Path file : stream)

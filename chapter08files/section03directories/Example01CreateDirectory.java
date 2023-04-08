@@ -4,8 +4,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example01CreateDirectory {
-    public static void main(String[] args) throws Exception {
+public class Example01CreateDirectory
+{
+    public static void main(String[] args) throws Exception
+    {
         Path path = Paths.get("chapter08files/io/NewDir");
         Files.createDirectory(path);
         path = Paths.get("chapter08files/io/NewDir1/NewDir2/NewDir3");

@@ -2,8 +2,10 @@ package chapter10queues;
 
 import java.util.LinkedList;
 
-public class Example01LinkedList {
-    public static void main(String[] args) {
+public class Example01LinkedList
+{
+    public static void main(String[] args)
+    {
         LinkedList<String> fruits = new LinkedList<>(); // []
         fruits.add("apple"); // [apple]
         fruits.add("banana"); // [apple, banana]

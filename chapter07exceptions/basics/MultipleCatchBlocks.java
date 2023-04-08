@@ -1,9 +1,11 @@
 package chapter07exceptions.basics;
 
-class MultipleCatchBlocks {
+class MultipleCatchBlocks
+{
     public int[] arr = new int[10];
 
-    public void writeList() {
+    public void writeList()
+    {
         try {
             arr[10] = 11;
         } catch (NumberFormatException e1) {
@@ -13,7 +15,8 @@ class MultipleCatchBlocks {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         MultipleCatchBlocks list = new MultipleCatchBlocks();
         list.writeList();
     }

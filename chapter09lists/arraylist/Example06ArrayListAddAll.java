@@ -3,8 +3,10 @@ package chapter09lists.arraylist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Example06ArrayListAddAll {
-    public static void main(String[] args) {
+public class Example06ArrayListAddAll
+{
+    public static void main(String[] args)
+    {
         List<String> names1 = new ArrayList<>();
         names1.add("Alice");
         names1.add("Bob");

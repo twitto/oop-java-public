@@ -6,8 +6,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example06FilterDirectory {
-    public static void main(String[] args) throws IOException {
+public class Example06FilterDirectory
+{
+    public static void main(String[] args) throws IOException
+    {
         Path directoryPath = Paths.get("chapter08files/io");
         // Search for files matching a pattern
         String pattern = "*example*.txt";

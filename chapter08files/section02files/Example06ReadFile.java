@@ -6,8 +6,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class Example06ReadFile {
-    public static void main(String[] args) throws IOException {
+public class Example06ReadFile
+{
+    public static void main(String[] args) throws IOException
+    {
         // Define the path to the file to be read
         Path filePath = Paths.get("chapter08files/io/example.txt");
         // Read the entire file as a byte array

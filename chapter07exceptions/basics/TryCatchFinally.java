@@ -1,7 +1,9 @@
 package chapter07exceptions.basics;
 
-class TryCatchFinally {
-    public static void main(String[] args) {
+class TryCatchFinally
+{
+    public static void main(String[] args)
+    {
         try {
             // code that generates exception
             int divideByZero = 5 / 0;

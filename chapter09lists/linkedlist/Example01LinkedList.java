@@ -3,7 +3,8 @@ package chapter09lists.linkedlist;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Example01LinkedList {
+public class Example01LinkedList
+{
     public static void main(String[] args)
     {
         List<String> colors = new LinkedList<>();
