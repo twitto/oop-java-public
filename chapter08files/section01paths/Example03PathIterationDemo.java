@@ -3,7 +3,7 @@ package chapter08files.section01paths;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example04PathIterationDemo
+public class Example03PathIterationDemo
 {
     public static void main(String[] args)
     {
@@ -13,4 +13,9 @@ public class Example04PathIterationDemo
         for (Path element : newPath)
             System.out.println(element);
     }
+    //Path elements:
+    //chapter08files
+    //io
+    //SubDirectory1
+    //Sub1File1.txt
 }

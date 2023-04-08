@@ -11,6 +11,5 @@ public class Example01CreateFile
         Path filePath = Paths.get("chapter08files/io/example.txt");
 
         Files.createFile(filePath);
-        System.out.println("File created successfully.");
     }
 }

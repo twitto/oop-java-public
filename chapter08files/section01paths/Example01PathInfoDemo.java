@@ -13,4 +13,7 @@ public class Example01PathInfoDemo
         System.out.println("Parent: " + path.getParent());
         System.out.println("Name: " + path.getFileName());
     }
+    //Path: chapter08files\io\SubDirectory1
+    //Parent: chapter08files\io
+    //Name: SubDirectory1
 }

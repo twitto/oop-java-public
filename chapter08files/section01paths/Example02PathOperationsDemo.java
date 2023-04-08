@@ -23,4 +23,12 @@ public class Example02PathOperationsDemo
         System.out.println("Exists: " + Files.exists(newPath));
         System.out.println("Is file: " + Files.isRegularFile(newPath));
     }
+    //path: chapter08files\io
+    //Exists: true
+    //Is directory: true
+    //path: chapter08files\io
+    //Sub-path: chapter08files\io\SubDirectory1
+    //New path: chapter08files\io\SubDirectory1\Sub1File1.txt
+    //Exists: true
+    //Is file: true
 }

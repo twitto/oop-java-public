@@ -11,7 +11,6 @@ public class Example03RenameFile
         Path filePath = Paths.get("chapter08files/io/example.txt");
         Path newFilePath = Paths.get("chapter08files/io/renamed_example.txt");
         Files.move(filePath, newFilePath);
-        System.out.println("File renamed successfully.");
     }
 }
 

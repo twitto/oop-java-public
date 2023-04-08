@@ -11,6 +11,5 @@ public class Example02DeleteFile
         Path filePath = Paths.get("chapter08files/io/example.txt");
 
         Files.delete(filePath);
-        System.out.println("File deleted successfully.");
     }
 }

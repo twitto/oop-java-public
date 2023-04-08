@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example12TraverseDirectoryShallowly
+public class Example04TraverseDirectoryShallowly
 {
     public static void main(String[] args) throws Exception
     {

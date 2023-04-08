@@ -11,6 +11,5 @@ public class Example04CopyFile
         Path sourceFilePath = Paths.get("chapter08files/io/example.txt");
         Path destinationFilePath = Paths.get("chapter08files/io/example_copy.txt");
         Files.copy(sourceFilePath, destinationFilePath);
-        System.out.println("File copied successfully.");
     }
 }
