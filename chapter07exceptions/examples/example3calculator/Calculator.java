@@ -1,9 +1,7 @@
 package chapter07exceptions.examples.example3calculator;
 
-class Calculator
-{
-    public static double calculate(double num1, double num2, String operation) throws IllegalArgumentException, ArithmeticException
-    {
+class Calculator {
+    public static double calculate(double num1, double num2, String operation) throws IllegalArgumentException, ArithmeticException {
         switch (operation) {
             case "+":
                 return num1 + num2;

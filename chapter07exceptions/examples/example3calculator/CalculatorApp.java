@@ -2,10 +2,8 @@ package chapter07exceptions.examples.example3calculator;
 
 import java.util.Scanner;
 
-public class CalculatorApp
-{
-    public static void main(String[] args)
-    {
+public class CalculatorApp {
+    public static void main(String[] args) {
         System.out.println("Welcome to the calculator program!");
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -16,10 +14,8 @@ public class CalculatorApp
                 double num2 = scanner.nextDouble();
                 System.out.println("Select operation: +, -, *, /");
                 String operation = scanner.next();
-
                 double result = Calculator.calculate(num1, num2, operation);
                 System.out.println("Result: " + result);
-
                 System.out.println("Do you want to perform another calculation? (y/n)");
                 String input = scanner.next();
                 if (input.equalsIgnoreCase("n"))

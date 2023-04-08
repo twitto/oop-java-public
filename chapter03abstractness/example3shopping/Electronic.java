@@ -1,43 +1,36 @@
 package chapter03abstractness.example3shopping;
 
-public class Electronic extends CartItem
-{
+public class Electronic extends CartItem {
     protected String brand;
     protected String model;
     protected int warrantyPeriod;
 
-    public Electronic(String name, double price, int quantity, String brand, String model, int warrantyPeriod)
-    {
+    public Electronic(String name, double price, int quantity, String brand, String model, int warrantyPeriod) {
         super(name, price, quantity);
         this.brand = brand;
         this.model = model;
         this.warrantyPeriod = warrantyPeriod;
     }
 
-    public String getBrand()
-    {
+    public String getBrand() {
         return brand;
     }
 
-    public String getModel()
-    {
+    public String getModel() {
         return model;
     }
 
-    public int getWarrantyPeriod()
-    {
+    public int getWarrantyPeriod() {
         return warrantyPeriod;
     }
 
     @Override
-    public double getTotalCost()
-    {
+    public double getTotalCost() {
         return getTotalPrice();
     }
 
     @Override
-    public String getDescription()
-    {
+    public String getDescription() {
         return quantity + "x " + brand + " " + model + " (" + name + ") with " + warrantyPeriod + " months warranty";
     }
 }

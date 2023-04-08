@@ -1,9 +1,7 @@
 package chapter07exceptions.basics;
 
-class TryCatch
-{
-    public static void main(String[] args)
-    {
+class TryCatch {
+    public static void main(String[] args) {
         try {
             // code that generate exception
             int divideByZero = 5 / 0;

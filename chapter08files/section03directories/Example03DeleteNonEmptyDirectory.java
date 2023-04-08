@@ -5,16 +5,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Example03DeleteNonEmptyDirectory
-{
-    public static void main(String[] args) throws Exception
-    {
+public class Example03DeleteNonEmptyDirectory {
+    public static void main(String[] args) throws Exception {
         Path path = Paths.get("chapter08files/io/NewDir");
         deleteDirectory(path);
     }
 
-    private static void deleteDirectory(Path directory) throws Exception
-    {
+    private static void deleteDirectory(Path directory) throws Exception {
         if (Files.exists(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
             for (Path entry : stream) {
@@ -23,7 +20,6 @@ public class Example03DeleteNonEmptyDirectory
                 else
                     Files.delete(entry);
             }
-
             Files.delete(directory);
         }
     }
