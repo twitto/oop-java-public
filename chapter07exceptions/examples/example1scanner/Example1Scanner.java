@@ -20,8 +20,11 @@ public class Example1Scanner
 
     public static int factorial(int n) throws Exception
     {
-        if (n < 0) throw new Exception("Number must be non-negative!");
-        if (n == 0) return 1;
-        else return n * factorial(n - 1);
+        if (n < 0)
+            throw new Exception("Number must be non-negative!");
+        if (n == 0)
+            return 1;
+        else
+            return n * factorial(n - 1);
     }
 }

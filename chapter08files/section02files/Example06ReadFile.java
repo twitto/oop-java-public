@@ -1,7 +1,6 @@
 package chapter08files.section02files;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -17,7 +16,7 @@ public class Example06ReadFile
         // Read the entire file as a byte array
         byte[] bytes = Files.readAllBytes(filePath);
         for (byte b : bytes)
-            System.out.print((char)b);
+            System.out.print((char) b);
         System.out.println("\n\n\n");
 
         // Read the entire file as a list of strings

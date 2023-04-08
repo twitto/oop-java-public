@@ -10,7 +10,7 @@ public class Example13TraverseDirectoryRecursively
 {
     public static void main(String[] args) throws Exception
     {
-        Path path = Paths.get("path/to/directory");
+        Path path = Paths.get("chapter08files/io");
         traverseDirectoryRecursively(path);
     }
 
@@ -19,15 +19,13 @@ public class Example13TraverseDirectoryRecursively
         if (Files.isDirectory(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
             for (Path file : stream) {
-                if (Files.isDirectory(file)) {
+                if (Files.isDirectory(file))
                     traverseDirectoryRecursively(file);
-                } else {
+                else
                     System.out.println(file.getFileName());
-                }
             }
             stream.close();
-        } else {
+        } else
             System.out.println(directory.getFileName());
-        }
     }
 }

@@ -22,12 +22,14 @@ public class CalculatorApp
 
                 System.out.println("Do you want to perform another calculation? (y/n)");
                 String input = scanner.next();
-                if (input.equalsIgnoreCase("n")) break;
+                if (input.equalsIgnoreCase("n"))
+                    break;
             } catch (Exception e) {
                 System.out.println("Exception occurred: " + e.getMessage());
                 System.out.println("Do you want to try again? (y/n)");
                 String input = scanner.next();
-                if (input.equalsIgnoreCase("n")) break;
+                if (input.equalsIgnoreCase("n"))
+                    break;
             }
         }
         scanner.close();

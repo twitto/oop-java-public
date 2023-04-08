@@ -10,7 +10,7 @@ public class Example12TraverseDirectoryShallowly
 {
     public static void main(String[] args) throws Exception
     {
-        Path path = Paths.get("path/to/directory");
+        Path path = Paths.get("chapter08files/io");
         traverseDirectory(path);
     }
 
@@ -18,9 +18,8 @@ public class Example12TraverseDirectoryShallowly
     {
         if (Files.exists(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
-            for (Path file : stream) {
+            for (Path file : stream)
                 System.out.println(file.getFileName());
-            }
             stream.close();
         }
     }

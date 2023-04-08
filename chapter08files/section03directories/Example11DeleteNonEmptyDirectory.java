@@ -9,7 +9,7 @@ public class Example11DeleteNonEmptyDirectory
 {
     public static void main(String[] args) throws Exception
     {
-        Path path = Paths.get("path/to/directory");
+        Path path = Paths.get("chapter08files/io/NewDir");
         deleteDirectory(path);
     }
 
@@ -18,8 +18,10 @@ public class Example11DeleteNonEmptyDirectory
         if (Files.exists(directory)) {
             DirectoryStream<Path> stream = Files.newDirectoryStream(directory);
             for (Path entry : stream) {
-                if (Files.isDirectory(entry)) deleteDirectory(entry);
-                else Files.delete(entry);
+                if (Files.isDirectory(entry))
+                    deleteDirectory(entry);
+                else
+                    Files.delete(entry);
             }
 
             Files.delete(directory);

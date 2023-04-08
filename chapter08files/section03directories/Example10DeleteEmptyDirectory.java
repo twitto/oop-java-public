@@ -8,7 +8,7 @@ public class Example10DeleteEmptyDirectory
 {
     public static void main(String[] args) throws Exception
     {
-        Path path = Paths.get("path/to/directory");
+        Path path = Paths.get("chapter08files/io/NewDir");
         Files.delete(path);
     }
 }
