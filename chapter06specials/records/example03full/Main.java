@@ -25,3 +25,14 @@ public class Main
         System.out.println("Full address 3: " + address3.getFullAddress());
     }
 }
+//Output
+// Address 1 has an apartment: true
+//Address 2 has an apartment: false
+//Address 3 has an apartment: false
+//Postal code 1234567 is valid: true
+//Postal code 12345678 is valid: false
+//Address 1 is in Israel: true
+//Address 2 is in Israel: false
+//Full address 1: Tel Aviv, Dizengoff 100, Apt 5, 6437105, Israel
+//Full address 2: New York, Broadway 123, 10019, USA
+//Full address 3: Paris, Champs-Elysees 1, 75008, France

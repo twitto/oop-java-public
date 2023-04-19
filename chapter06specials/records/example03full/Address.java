@@ -1,13 +1,13 @@
 package chapter06specials.records.example03full;
 
-public record Address(String city, String street, String houseNumber, String apartmentNumber, int postalCode,
-                      String country)
+public record Address(String city, String street, String houseNumber,
+                      String apartmentNumber, int postalCode, String country)
 {
-
     private static final int MIN_POSTAL_CODE = 1000000;
     private static final int MAX_POSTAL_CODE = 9999999;
 
-    public Address(String city, String street, String houseNumber, int postalCode, String country)
+    public Address(String city, String street, String houseNumber,
+                   int postalCode, String country)
     {
         this(city, street, houseNumber, null, postalCode, country);
     }
@@ -30,7 +30,7 @@ public record Address(String city, String street, String houseNumber, String apa
     public String getFullAddress()
     {
         return city() + ", " + street() + " " + houseNumber() +
-                (hasApartment() ? ", Apt " + apartmentNumber() : "") + ", " + postalCode() + ", " + country();
+                (hasApartment() ? ", Apt " + apartmentNumber() : "") +
+                ", " + postalCode() + ", " + country();
     }
-
 }

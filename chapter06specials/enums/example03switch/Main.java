@@ -8,6 +8,7 @@ public class Main
             printAction(color);
         }
     }
+
     public static void printAction(TrafficLight color)
     {
         switch (color) {
