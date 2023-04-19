@@ -2,7 +2,8 @@ package chapter05generics.example01dynamicarray.generic;
 
 public class Main3Object
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         DynamicArray<Object> array = new SimpleDynamicArray<>(); // create a new instance of SimpleDynamicArray
 
         // add some objects to the array

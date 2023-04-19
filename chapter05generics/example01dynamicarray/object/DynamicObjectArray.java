@@ -1,5 +1,7 @@
 package chapter05generics.example01dynamicarray.object;
-public interface DynamicObjectArray {
+
+public interface DynamicObjectArray
+{
 
     // Add a new element to the end of the array
     void add(Object element);

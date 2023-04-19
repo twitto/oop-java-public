@@ -1,7 +1,9 @@
 package chapter04interfaces.example02extending_interfaces;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         ResizableDrawable rectangle = new Rectangle(10, 5);
         rectangle.draw();
         rectangle.resize(2.0);

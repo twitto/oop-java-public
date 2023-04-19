@@ -1,5 +1,7 @@
 package chapter05generics.example01dynamicarray.generic;
-public interface DynamicArray<E> {
+
+public interface DynamicArray<E>
+{
 
     // Add a new element to the end of the array
     void add(E element);

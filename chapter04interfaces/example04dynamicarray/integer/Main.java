@@ -2,7 +2,8 @@ package chapter04interfaces.example04dynamicarray.integer;
 
 public class Main
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         DynamicIntegerArray array = new SimpleDynamicIntegerArray(); // create a new instance of SimpleDynamicArray
 
         // add some elements to the array

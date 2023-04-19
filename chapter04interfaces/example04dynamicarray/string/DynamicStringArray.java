@@ -1,6 +1,7 @@
 package chapter04interfaces.example04dynamicarray.string;
 
-public interface DynamicStringArray {
+public interface DynamicStringArray
+{
 
     // Add a new element to the end of the array
     void add(String element);

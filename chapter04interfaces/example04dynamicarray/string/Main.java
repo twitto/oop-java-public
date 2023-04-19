@@ -1,11 +1,9 @@
 package chapter04interfaces.example04dynamicarray.string;
 
-import chapter04interfaces.example04dynamicarray.integer.DynamicIntegerArray;
-import chapter04interfaces.example04dynamicarray.integer.SimpleDynamicIntegerArray;
-
 public class Main
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         DynamicStringArray array = new SimpleDynamicStringArray(); // create a new instance of SimpleDynamicArray
 
         // add some strings to the array

@@ -1,11 +1,9 @@
 package chapter05generics.example01dynamicarray.object;
 
-import chapter04interfaces.example04dynamicarray.string.DynamicStringArray;
-import chapter04interfaces.example04dynamicarray.string.SimpleDynamicStringArray;
-
 public class Main
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         DynamicObjectArray array = new SimpleDynamicObjectArray(); // create a new instance of SimpleDynamicArray
 
         // add some objects to the array

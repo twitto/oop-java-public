@@ -1,6 +1,7 @@
 package chapter04interfaces.example04dynamicarray.integer;
 
-public interface DynamicIntegerArray {
+public interface DynamicIntegerArray
+{
 
     // Add a new element to the end of the array
     void add(int element);
