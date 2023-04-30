@@ -1,0 +1,4 @@
+This is Sub2File1.txt.
+It is part of SubDirectory2.
+It is a nice file.
+Bye...
