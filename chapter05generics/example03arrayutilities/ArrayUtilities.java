@@ -1,5 +1,6 @@
 package chapter05generics.example03arrayutilities;
 
+import java.lang.reflect.Array;
 import java.util.Random;
 
 public class ArrayUtilities
@@ -25,16 +26,18 @@ public class ArrayUtilities
         return array[index];
     }
 
-    public static <T> T[] copy(T[] source)
+    public static <T> T[] copy(T[] source, Class<T> type)
     {
-        T[] destination = (T[]) new Object[source.length];
+        T[] destination = (T[]) Array.newInstance(type, source.length);
+        //T[] destination = (T[]) new Object[source.length];
+
         for (int i = 0; i < source.length; i++) {
             destination[i] = source[i];
         }
         return destination;
     }
 
-    private static <T extends Number> double sum(T[] array)
+    public static <T extends Number> double sum(T[] array)
     {
         double sum = 0;
         for (T t : array) {
