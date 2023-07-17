@@ -1,7 +1,9 @@
 package chapter01classes.point;
 
-public class Main2 {
-    public static void main(String[] args) {
+public class Main2
+{
+    public static void main(String[] args)
+    {
         // Create an array of Point objects
         Point[] points = new Point[3];
 

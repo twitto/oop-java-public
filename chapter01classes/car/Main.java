@@ -1,7 +1,9 @@
 package chapter01classes.car;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         // Create car objects using different constructors
         Car car1 = new Car();
         Car car2 = new Car("Toyota Camry", 12345);

@@ -1,7 +1,9 @@
 package chapter01classes.car;
 
-public class Main2 {
-    public static void main(String[] args) {
+public class Main2
+{
+    public static void main(String[] args)
+    {
         // Create an array of Car objects
         Car[] cars = new Car[3];
 

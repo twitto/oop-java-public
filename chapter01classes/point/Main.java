@@ -1,7 +1,9 @@
 package chapter01classes.point;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         // Create a Point object with coordinates (2.5, 3.7)
         Point point1 = new Point(2.5, 3.7);
 

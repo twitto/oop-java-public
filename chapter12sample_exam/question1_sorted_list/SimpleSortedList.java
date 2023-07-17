@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class SimpleSortedList<T extends Comparable<T>> implements SortedList<T>
 {
-    private final LinkedList<T> list;
+    private LinkedList<T> list;
 
     public SimpleSortedList()
     {

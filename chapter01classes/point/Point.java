@@ -3,7 +3,8 @@ package chapter01classes.point;
 /**
  * The Point class represents a 2D point with x and y coordinates.
  */
-public class Point {
+public class Point
+{
     private final double DEFAULT_X = 0.0;
     private final double DEFAULT_Y = 0.0;
     private double x;
@@ -15,7 +16,8 @@ public class Point {
      * @param x the x-coordinate of the point
      * @param y the y-coordinate of the point
      */
-    public Point(double x, double y) {
+    public Point(double x, double y)
+    {
         this.x = x;
         this.y = y;
     }
@@ -23,7 +25,8 @@ public class Point {
     /**
      * Constructs a Point object with the default x and y coordinates (0, 0).
      */
-    public Point() {
+    public Point()
+    {
         this.x = DEFAULT_X;
         this.y = DEFAULT_Y;
     }
@@ -33,7 +36,8 @@ public class Point {
      *
      * @return the x-coordinate
      */
-    public double getX() {
+    public double getX()
+    {
         return x;
     }
 
@@ -42,7 +46,8 @@ public class Point {
      *
      * @return the y-coordinate
      */
-    public double getY() {
+    public double getY()
+    {
         return y;
     }
 
@@ -51,7 +56,8 @@ public class Point {
      *
      * @param x the new x-coordinate
      */
-    public void setX(double x) {
+    public void setX(double x)
+    {
         this.x = x;
     }
 
@@ -60,7 +66,8 @@ public class Point {
      *
      * @param y the new y-coordinate
      */
-    public void setY(double y) {
+    public void setY(double y)
+    {
         this.y = y;
     }
 
@@ -70,7 +77,8 @@ public class Point {
      * @param other the other point
      * @return the distance between this point and the other point
      */
-    public double distanceTo(Point other) {
+    public double distanceTo(Point other)
+    {
         double dx = this.x - other.x;
         double dy = this.y - other.y;
         return Math.sqrt(dx * dx + dy * dy);
@@ -81,7 +89,8 @@ public class Point {
      *
      * @return the absolute distance from the origin to this point
      */
-    public double abs() {
+    public double abs()
+    {
         return Math.sqrt(x * x + y * y);
     }
 
@@ -91,7 +100,8 @@ public class Point {
      * @return a string representation of this point
      */
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "(" + x + ", " + y + ")";
     }
 
@@ -103,7 +113,8 @@ public class Point {
      * @return true if the given object is equal to this point, false otherwise
      */
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj)
+    {
         if (this == obj)
             return true;
         if (obj == null || getClass() != obj.getClass())

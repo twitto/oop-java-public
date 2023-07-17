@@ -12,8 +12,7 @@ public class ExceptionHandlingExample
         boolean validInput = false; // user input
         int option = 0; // option from a menu
 
-        while (!validInput)
-        {
+        while (!validInput) {
             try {
                 displayMenu();
                 System.out.print("Enter your option: ");
@@ -36,14 +35,16 @@ public class ExceptionHandlingExample
         scanner.close();
     }
 
-    public static void displayMenu() {
+    public static void displayMenu()
+    {
         System.out.println("Menu:");
         System.out.println("1. new game");
         System.out.println("2. resume");
         System.out.println("3. leaderboard");
     }
 
-    public static void processOption(int option) throws InvalidOptionException {
+    public static void processOption(int option) throws InvalidOptionException
+    {
         switch (option) {
             case 1:
                 System.out.println("game is starting...");

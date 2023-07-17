@@ -3,7 +3,8 @@ package chapter01classes.car;
 /**
  * Represents a car with model, ID, and color.
  */
-public class Car {
+public class Car
+{
     private String model;
     private int id;
     private String color;
@@ -11,7 +12,8 @@ public class Car {
     /**
      * Constructs a car object with default values.
      */
-    public Car() {
+    public Car()
+    {
         this("Unknown", 0, "Unknown");
     }
 
@@ -22,7 +24,8 @@ public class Car {
      * @param id    The ID of the car.
      * @param color The color of the car.
      */
-    public Car(String model, int id, String color) {
+    public Car(String model, int id, String color)
+    {
         this.model = model;
         this.id = id;
         this.color = color;
@@ -34,7 +37,8 @@ public class Car {
      * @param model The model of the car.
      * @param id    The ID of the car.
      */
-    public Car(String model, int id) {
+    public Car(String model, int id)
+    {
         this(model, id, "Unknown");
     }
 
@@ -43,7 +47,8 @@ public class Car {
      *
      * @return The model of the car.
      */
-    public String getModel() {
+    public String getModel()
+    {
         return model;
     }
 
@@ -52,7 +57,8 @@ public class Car {
      *
      * @return The ID of the car.
      */
-    public int getId() {
+    public int getId()
+    {
         return id;
     }
 
@@ -61,7 +67,8 @@ public class Car {
      *
      * @return The color of the car.
      */
-    public String getColor() {
+    public String getColor()
+    {
         return color;
     }
 
@@ -70,7 +77,8 @@ public class Car {
      *
      * @param model The model of the car.
      */
-    public void setModel(String model) {
+    public void setModel(String model)
+    {
         this.model = model;
     }
 
@@ -79,7 +87,8 @@ public class Car {
      *
      * @param id The ID of the car.
      */
-    public void setId(int id) {
+    public void setId(int id)
+    {
         this.id = id;
     }
 
@@ -88,7 +97,8 @@ public class Car {
      *
      * @param color The color of the car.
      */
-    public void setColor(String color) {
+    public void setColor(String color)
+    {
         this.color = color;
     }
 
@@ -98,7 +108,8 @@ public class Car {
      * @return A string representation of the car.
      */
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Car{" +
                 "model='" + model + '\'' +
                 ", id=" + id +
@@ -113,7 +124,8 @@ public class Car {
      * @return true if this object is the same as the obj argument; false otherwise.
      */
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o)
+    {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;

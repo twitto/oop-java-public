@@ -1,23 +1,28 @@
 package chapter09lists.section03linkedlist;
 
-public class LinkedList<T> implements List<T> {
+public class LinkedList<T> implements List<T>
+{
     private Link<T> first;
     private int size;
 
-    public LinkedList() {
+    public LinkedList()
+    {
         this.first = null;
         this.size = 0;
     }
 
-    public boolean isEmpty() {
+    public boolean isEmpty()
+    {
         return size == 0;
     }
 
-    public int size() {
+    public int size()
+    {
         return size;
     }
 
-    public void add(T data) {
+    public void add(T data)
+    {
         Link<T> newNode = new Link<>(data);
 
         if (first == null) {
@@ -35,7 +40,8 @@ public class LinkedList<T> implements List<T> {
         size++;
     }
 
-    public void addFirst(T data) {
+    public void addFirst(T data)
+    {
         Link<T> newNode = new Link<>(data);
 
         if (first == null) {
@@ -48,7 +54,8 @@ public class LinkedList<T> implements List<T> {
         size++;
     }
 
-    public void remove(T data) {
+    public void remove(T data)
+    {
         if (first == null) {
             return;
         }

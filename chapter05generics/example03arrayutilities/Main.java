@@ -1,9 +1,5 @@
 package chapter05generics.example03arrayutilities;
 
-import javax.sound.midi.Soundbank;
-import java.math.BigDecimal;
-import java.sql.SQLOutput;
-
 public class Main
 {
     public static void main(String[] args)
