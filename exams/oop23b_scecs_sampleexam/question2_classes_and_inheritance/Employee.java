@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public abstract class Employee
 {
-    private String id;
-    private String fullName;
+    protected String id;
+    protected String fullName;
 
     public Employee(String id, String fullName)
     {
