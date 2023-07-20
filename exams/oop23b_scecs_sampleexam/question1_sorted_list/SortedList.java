@@ -1,4 +1,4 @@
-package chapter12sample_exam.question1_sorted_list;
+package exams.oop23b_scecs_sampleexam.question1_sorted_list;
 
 public interface SortedList<T extends Comparable<T>>
 {

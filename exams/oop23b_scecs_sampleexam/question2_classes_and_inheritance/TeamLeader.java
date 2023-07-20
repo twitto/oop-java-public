@@ -1,4 +1,4 @@
-package chapter12sample_exam.question2_classes_and_inheritance;
+package exams.oop23b_scecs_sampleexam.question2_classes_and_inheritance;
 
 public class TeamLeader extends Developer
 {

@@ -1,4 +1,4 @@
-package chapter12sample_exam.question3files;
+package exams.oop23b_scecs_sampleexam.question3files;
 
 import java.io.IOException;
 
