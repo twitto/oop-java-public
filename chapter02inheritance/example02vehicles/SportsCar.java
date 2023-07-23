@@ -11,10 +11,10 @@ public class SportsCar extends Car
         this.maxAcceleration = maxAcceleration;
     }
 
-    @Override
-    public void drive()
-    {
-        super.drive(); // call drive() method in Car class
-        System.out.println("Driving the " + name + " like a boss");
-    }
+//    @Override
+//    public void drive()
+//    {
+//        //super.drive(); // call drive() method in Car class
+//        System.out.println("Driving the " + name + " like a boss");
+//    }
 }

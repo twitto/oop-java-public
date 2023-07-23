@@ -16,7 +16,7 @@ public class Ship extends Vehicle
     @Override
     public void drive()
     {
-        super.drive(); // call drive() method in Vehicle class
+        //super.drive(); // call drive() method in Vehicle class
         System.out.println("Sailing the " + name + " on the sea");
     }
 }

@@ -16,7 +16,7 @@ public class Airplane extends Vehicle
     @Override
     public void drive()
     {
-        super.drive(); // call drive() method in Vehicle class
+        //super.drive(); // call drive() method in Vehicle class
         System.out.println("Flying the " + name + " in the sky");
     }
 }

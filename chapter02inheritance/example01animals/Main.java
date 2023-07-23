@@ -12,6 +12,7 @@ public class Main
         System.out.println("New breed: " + dog.getBreed());
         System.out.println("Cat name: " + cat.getName() + ", color: " + cat.getColor());
         cat.meow();
+        //cat.bark();
         cat.setColor("orange");
         System.out.println("New color: " + cat.getColor());
     }
