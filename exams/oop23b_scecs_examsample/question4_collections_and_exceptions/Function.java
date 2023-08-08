@@ -1,4 +1,4 @@
-package exams.oop23b_scecs_sampleexam.question4_collections_and_exceptions;
+package exams.oop23b_scecs_examsample.question4_collections_and_exceptions;
 
 import java.util.ArrayList;
 import java.util.List;

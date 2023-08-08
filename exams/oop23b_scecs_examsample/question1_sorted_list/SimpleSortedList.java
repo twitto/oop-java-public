@@ -1,4 +1,4 @@
-package exams.oop23b_scecs_sampleexam.question1_sorted_list;
+package exams.oop23b_scecs_examsample.question1_sorted_list;
 
 import java.util.LinkedList;
 
