@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>oop233scecs.moeda.q2_tickets_package</OriginalElement>
+  <nodes>
+    <node x="-85.5" y="714.5">oop233scecs.moeda.q2_tickets_package.MealType</node>
+    <node x="323.0" y="-13.5">oop233scecs.moeda.q2_tickets_package.Passenger</node>
+    <node x="153.5" y="763.0">oop233scecs.moeda.q2_tickets_package.ExtendedTicket</node>
+    <node x="207.5" y="459.0">oop233scecs.moeda.q2_tickets_package.Ticket</node>
+    <node x="-85.0" y="991.0">oop233scecs.moeda.q2_tickets_package.PremiumTicket</node>
+    <node x="215.0" y="186.5">oop233scecs.moeda.q2_tickets_package.Seat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="oop233scecs.moeda.q2_tickets_package.PremiumTicket" target="oop233scecs.moeda.q2_tickets_package.ExtendedTicket" relationship="GENERALIZATION">
+      <point x="200.0" y="-56.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="oop233scecs.moeda.q2_tickets_package.Ticket" target="oop233scecs.moeda.q2_tickets_package.Passenger" relationship="TO_ONE">
+      <point x="80.0" y="-68.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="oop233scecs.moeda.q2_tickets_package.PremiumTicket" target="oop233scecs.moeda.q2_tickets_package.MealType" relationship="TO_ONE">
+      <point x="-120.0" y="-56.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="oop233scecs.moeda.q2_tickets_package.ExtendedTicket" target="oop233scecs.moeda.q2_tickets_package.Ticket" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="oop233scecs.moeda.q2_tickets_package.Ticket" target="oop233scecs.moeda.q2_tickets_package.Seat" relationship="TO_ONE">
+      <point x="-40.0" y="-68.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6569920844327177" showDependencies="true" x="228.5" y="554.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
