@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>oop233scecs.moedb.q2_zoo_package</OriginalElement>
+  <nodes>
+    <node x="-95.5" y="603.5">oop233scecs.moedb.q2_zoo_package.Falcon</node>
+    <node x="817.5" y="259.0">oop233scecs.moedb.q2_zoo_package.Mammal</node>
+    <node x="68.5" y="503.5">oop233scecs.moedb.q2_zoo_package.Eagle</node>
+    <node x="-47.5" y="-13.5">oop233scecs.moedb.q2_zoo_package.Animal</node>
+    <node x="787.5" y="503.5">oop233scecs.moedb.q2_zoo_package.CarnivoreMammal</node>
+    <node x="-87.0" y="246.5">oop233scecs.moedb.q2_zoo_package.Bird</node>
+    <node x="869.0" y="791.0">oop233scecs.moedb.q2_zoo_package.Wolf</node>
+    <node x="370.5" y="591.0">oop233scecs.moedb.q2_zoo_package.HerbivoreMammal</node>
+    <node x="313.5" y="778.5">oop233scecs.moedb.q2_zoo_package.Elephant</node>
+    <node x="-8.5" y="911.0">oop233scecs.moedb.q2_zoo_package.Deer</node>
+    <node x="709.5" y="911.0">oop233scecs.moedb.q2_zoo_package.Lion</node>
+    <node x="370.0" y="222.5">oop233scecs.moedb.q2_zoo_package.Diet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Eagle" target="oop233scecs.moedb.q2_zoo_package.Bird" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="196.0" y="475.0" />
+      <point x="36.0" y="475.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Lion" target="oop233scecs.moedb.q2_zoo_package.CarnivoreMammal" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="836.0" y="755.0" />
+      <point x="956.0" y="755.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Bird" target="oop233scecs.moedb.q2_zoo_package.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-68.5" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Elephant" target="oop233scecs.moedb.q2_zoo_package.HerbivoreMammal" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="496.0" y="715.0" />
+      <point x="556.0" y="715.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.HerbivoreMammal" target="oop233scecs.moedb.q2_zoo_package.Diet" relationship="TO_ONE">
+      <point x="-92.75" y="-44.0" />
+      <point x="463.25" y="555.0" />
+      <point x="456.0" y="555.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Mammal" target="oop233scecs.moedb.q2_zoo_package.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="956.0" y="195.0" />
+      <point x="36.0" y="195.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.CarnivoreMammal" target="oop233scecs.moedb.q2_zoo_package.Mammal" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Deer" target="oop233scecs.moedb.q2_zoo_package.HerbivoreMammal" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="136.0" y="755.0" />
+      <point x="496.0" y="755.0" />
+      <point x="496.0" y="715.0" />
+      <point x="556.0" y="715.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Falcon" target="oop233scecs.moedb.q2_zoo_package.Bird" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.HerbivoreMammal" target="oop233scecs.moedb.q2_zoo_package.Mammal" relationship="GENERALIZATION">
+      <point x="92.75" y="-44.0" />
+      <point x="648.75" y="475.0" />
+      <point x="956.0" y="475.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="oop233scecs.moedb.q2_zoo_package.Wolf" target="oop233scecs.moedb.q2_zoo_package.CarnivoreMammal" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="996.0" y="755.0" />
+      <point x="956.0" y="755.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7134559535333979" showDependencies="true" x="524.5" y="502.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
