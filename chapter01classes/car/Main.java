@@ -1,9 +1,28 @@
 package chapter01classes.car;
 
+//import chapter01classes.school.Student;
+
 public class Main
 {
     public static void main(String[] args)
     {
+        //Student s = new Student("abc", 22);
+        //s.setName("bob");
+
+        Math.random();
+
+        double d = 7;
+        double d2 = 3.14;
+        //int i = 2.71;
+
+        Object x = new Object(); // a:4000
+
+        x = new Car();  // a:7000
+        Object x3 = "abc";
+        Object x4 = 2;
+
+        double d3 = Math.random();
+
         // Create car objects using different constructors
         Car car1 = new Car();
         Car car2 = new Car("Toyota Camry", 12345);
