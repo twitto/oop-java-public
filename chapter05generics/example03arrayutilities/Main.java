@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         Integer[] a = {1, 2, 3};
-        Integer[] b = ArrayUtilities.copy(a, Integer.class);
+        Integer[] b = a;
         ArrayUtilities.print(b);
 
         System.out.println(ArrayUtilities.randomElement(b));
